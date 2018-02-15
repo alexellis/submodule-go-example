@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  sub:
+    lang: go
+    handler: ./sub
+    image: alexellis2/sub-go-test
